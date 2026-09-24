@@ -1147,8 +1147,8 @@ class Gate {
     // element rides out as it engages, and if it starts flush it clears the
     // housing immediately and reads as the part detaching rather than
     // sliding. At full extension it should sit barely proud of the metal.
-    const lTop = rTop - 0.03;
-    const lTip = rTip + 0.036;
+    const lTop = rTop + 0.02;
+    const lTip = rTip + 0.046;
     const lHalfTop = 0.052;
     const lHalfTip = 0.01;
 
